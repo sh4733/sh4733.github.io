@@ -3,17 +3,32 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="webstyle.css">
-		<link href="https://fonts.googleapis.com/css?family=Inconsolata+30px" rel="stylesheet">
-		<title> Recreating B.J. </title>
+		<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		<title> re:Billie Jean </title>
 	</head>
 
 	<body>
-		<img class="start_image" src="billie.jpg">
+		<div class="homepage"> <a href="./homepage1.html"> <strong> MAIN PAGE </strong> </a> </div>
+
+		<img class="start_image" src="jackson.jpg">
+		
 		<div class="heading">
-			<h1>RECREATING B.J.</h1>
-		<p>the winning film of 30MFF</p>
-		<div class="button-container">
-			<button><a href="https://www.naver.com">WATCH THE VIDEO</a></button>
-			<button><a href="file:///C:/Users/glori/Desktop/Communications%20Lab/web%20project/homepage1.html"> MAIN PAGE</a></button>
+			<h1>re:</h1>
+			<h1 style="color: #dc331e">BILLIE</h1>
+			<h1>JEAN </h1>
+			<div class="movie-play" onclick="on()"></div>
+			<p class="mini-text"> Watch the film </p>
+		</div>
+
+		<div id="mv-overlay" onclick="off()">
+			<div id="content">
+				<iframe width="700" height="394" src="https://www.youtube.com/embed/IUOuGmr-77I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+				</iframe>
+			</div>
+		</div>
+		
+		<script src="website.js"></script>
+
 	</body>
 </html>
