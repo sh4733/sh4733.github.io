@@ -1,0 +1,168 @@
+body, html {
+    height: 100%;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:70px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:20px;
+}
+
+h2{
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  display: block;
+  z-index: 10;
+  left: 5%;
+}
+
+.subtext{
+  text-align:left;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  display: block;
+  z-index: 10;
+  left:5%;
+  margin-top: 5%;
+}
+
+text{
+  text-align:center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.button-container {
+  width: 20%;
+    padding: 0px;
+    background-color: #61c3d8;
+    border: none;
+    padding: 3% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    display:block;
+    margin: auto auto;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.enter-container{
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map-container{
+  width: 1024px;
+  height:768px;
+  margin: auto;
+  padding: auto;
+  display: block;
+}
+
+#myProgress{
+  width:100px;
+  background-color: #e6e6e6;
+}
+
+#myBar{
+  width:0%;
+  height:60px;
+  background-color: #bfd45c;
+}
+
+#battery{
+  width:100px;
+  height:60px;
+  border-style:solid;
+  border-color: black;
+  border-width: 4px;
+  float:left;
+}
+
+#battery-container{
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  z-index: 10;
+}
+
+#batterytop{
+  width: 10px;
+  height: 20px;
+  background: black;
+  float:left;
+  margin-top: 23px;
+}
+
+#mapimage{
+  width: auto;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.button {
+  margin:100px;
+  display: block;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 50%;
+  background: #ffcc2f;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;  
+  z-index: 10;
+}
+.button:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+
+
+/*@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}*/

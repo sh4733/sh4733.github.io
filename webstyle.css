@@ -47,10 +47,6 @@ h1{
     display: inline-block;
 }
 
-.movie-play a:hover{
-	border-left: #dc331e;
-}
-
 #mv-overlay{
 	position:fixed;
 	display:none;

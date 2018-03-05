@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recharge</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="soundstyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header">
+			<h2> FRIDAY EVENING RECHARGE </h2>
+			<div class="subtext">Click the circles to peek into scenes of Abu Dhabi on Friday evenings<br>Recharge your energy after a tiring week.</div>
+		</div>
+		<!--audio files!-->
+		<audio id="busSound" src="bus2.wav" type="audio/wav"></audio>
+		<audio id="parkSound" src="park2.wav" type="audio/wav"></audio>
+		<audio id="restaurantSound" src="restaurant2.wav" type="audio/wav"></audio>
+		<audio id="bakerySound" src="bakery2.wav" type="audio/wav"></audio>
+		<audio id="luluSound" src="lulu2.wav" type="audio/wav"></audio>
+		<audio id="eveningSound" src="evening2.wav" type="audio/wav"></audio>
+
+		<!--map image!-->
+		<div class="map-container">
+			<img src="map.png" alt="Map" id="mapimage">
+				<button class="button" id="busSound" onclick="sound1()" style="left: 320px; top: 510px"> <text> Bus </text></button>
+				<button class="button" id="parkSound" onclick="sound2()" style="left: 440px; top: 400px"> <text> Capital Garden </text> </button>
+				<button class="button" id="restaurantSound" onclick="sound3()" style="left: 930px; top: 130px"><text> Anand Al Saeed </text> </button>
+				<button class="button" id="bakerySound" onclick="sound4()" style="left:1010px; top: 70px"> <text> Manila Bakery </text> </button>
+				<button class="button" id="luluSound" onclick="sound5()" style="left: 1000px; top: 250px"> <text> Lulu </text></button>
+				<button class="button" id="eveningSound" onclick="sound6()" style="left: 900px; top: 260px"> <text> Street </text></button>
+			
+		</div>
+
+		<div id="battery-container">
+			<div id="battery">
+				<div id="myProgress">
+					<div id="myBar"></div>
+				</div>
+			</div>
+			<div id="batterytop"></div>
+		</div>
+		
+		<script src="soundscript.js"></script>
+
+	</body>
+</html>
